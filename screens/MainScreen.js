@@ -22,20 +22,20 @@ return(
  
     <View style = {styles.container}>
 
-          <ImageBackground source={require('../assets/back1.png')} style={styles.image}>
-          <View style={{ flex: 2 }}>
+          <ImageBackground source={require('../assets/back5.jpg')} style={styles.image}>
+          <View style={{ flex:2 }}>
   <MyHeader title="Home" navigation={this.props.navigation} />
-  </View>
+  </View>  
 
      <View style = {styles.maths1}>
-      <TouchableOpacity onPress={() =>this.props.navigation.navigate('MTestScreen')}
+      <TouchableOpacity onPress={() =>this.props.navigation.navigate('MathScreen')}
             style={styles.button}
           ><Text>MATHS</Text></TouchableOpacity>
    </View>
 
 
           <View style ={styles.science}>  
-      <TouchableOpacity onPress={() =>this.props.navigation.navigate('MTestScreen')}
+      <TouchableOpacity>
             style={styles.button1}
           ><Text>Science</Text></TouchableOpacity>
           </View> 
@@ -69,7 +69,6 @@ const styles = StyleSheet.create({
     image: {
         flex: 3.5,
         resizeMode: "cover",
-        height: RFValue(700),
       },
       button: {
         width: "40%",

@@ -79,7 +79,7 @@ export default class SettingScreen extends Component {
 
 
         <View style={styles.formContainer}>
-        <ImageBackground source={require('../assets/back1.png')} style={styles.image}>
+        <ImageBackground source={require('../assets/back5.jpg')} style={styles.image}>
         
             <View
               style={{
@@ -229,7 +229,6 @@ const styles = StyleSheet.create({
   image: {
     flex: 3.5,
     resizeMode: "cover",
-    height: RFValue(700),
   }
 
 });

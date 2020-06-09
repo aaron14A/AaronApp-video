@@ -4,11 +4,17 @@ import { createStackNavigator } from 'react-navigation-stack';
 import MainScreen from '../screens/MainScreen';
 import SettingScreen from '../screens/SettingScreen';
 import AboutScreen from '../screens/AboutScreen';
-import {AppStackNavigatorMath} from './AppStackNavigatorMath';
+import MathScreen from '../screens/MathScreen';
 
 export const AppStackNavigator = createStackNavigator({
+  MainScreen : {
+    screen : MainScreen,
+    navigationOptions:{
+      headerShown : false
+    }
+  },
    MathScreen : {
-    screen : AppStackNavigatorMath,
+    screen : MathScreen,
     navigationOptions:{
       headerShown : false
     }
@@ -27,6 +33,6 @@ export const AppStackNavigator = createStackNavigator({
   }
 },
   {
-    initialRouteName: 'MainScreen'
+    initialRouteName: 'MathScreen'
   }
 );

@@ -16,15 +16,15 @@ import { Input, Icon } from "react-native-elements";
 import { RFValue } from "react-native-responsive-fontsize";
 import MyHeader from "../components/MyHeader";
 
-export default class MTestScreen extends Component {
+export default class MathScreen extends Component {
  render(){
 return(
     <View style = {styles.container}>
        <View style={{ flex: 0.1 }}>
   <MyHeader title="MTestScreen" navigation={this.props.navigation} />
   </View>
-      <ImageBackground source={require('../assets/back1.png')} style={styles.image}>
-  <Text>Hi Everyday this app is made so that peoplae can connact to each other</Text>
+      <ImageBackground source={require('../assets/back13.jpg')} style={styles.image}>
+  <Text>Hi Everyday this app is made so that people can connact to each other</Text>
         </ImageBackground> 
 
     </View>

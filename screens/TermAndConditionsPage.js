@@ -20,7 +20,7 @@ export default class TermAndConditionsPage extends Component {
 return(
   
     <View style = {styles.container}>
-          <ImageBackground source={require('../assets/back3.jpg')} style={styles.image}>
+          <ImageBackground source={require('../assets/back5.jpg')} style={styles.image}>
            </ImageBackground>        
     </View>
    

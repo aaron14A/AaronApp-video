@@ -23,7 +23,7 @@ return(
        <View style={{ flex: 0.1 }}>
   <MyHeader title="MLearnScreen" navigation={this.props.navigation} />
   </View>
-      <ImageBackground source={require('../assets/back1.png')} style={styles.image}>
+      <ImageBackground source={require('../assets/back5.jpg')} style={styles.image}>
   <Text>Hi Everyday this app is made so that peoplae can connact to each other</Text>
         </ImageBackground> 
 

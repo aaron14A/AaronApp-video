@@ -3,6 +3,7 @@ import { Header,Icon,Badge ,ImageBackground} from 'react-native-elements';
 import { View, Text, StyeSheet ,Alert} from 'react-native';
 import db from '../config'
 import firebase from 'firebase';
+import { RFValue } from 'react-native-responsive-fontsize';
 
 export default class MyHeader extends Component{
   constructor(props){
@@ -18,10 +19,10 @@ export default class MyHeader extends Component{
 
   render(){
     return(
-        <Header
-          leftComponent={<Icon name='bars' type='font-awesome' color='#ffffff'  onPress={() => this.props.navigation.toggleDrawer()}/>}
-          centerComponent={{ text: this.props.title, style: { color: '#ffffff', fontSize:20,fontWeight:"bold", } }}
-          backgroundColor = "#32867d"
+        <Header 
+          leftComponent={<Icon name='bars' type='font-awesome' color='grey'  onPress={() => this.props.navigation.toggleDrawer()}/>}
+          centerComponent={{ text: this.props.title, style: { color: 'grey', fontSize:20 ,fontWeight:"bold", } }}
+          backgroundColor = "white" 
         />
      
 
